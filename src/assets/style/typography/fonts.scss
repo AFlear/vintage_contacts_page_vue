@@ -1,0 +1,28 @@
+$fonts-directory: "../fonts";
+
+@font-face {
+  font-family: "SuisseIntl";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("#{$fonts-directory}/SuisseIntl.woff2") format("woff2"),
+  url("#{$fonts-directory}/SuisseIntl.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SuisseIntl";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("#{$fonts-directory}/SuisseIntl-Light.woff2") format("woff2"),
+  url("#{$fonts-directory}/SuisseIntl-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SuisseIntl";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("#{$fonts-directory}/SuisseIntl-SemiBold.woff2") format("woff2"),
+  url("#{$fonts-directory}/SuisseIntl-SemiBold.woff") format("woff");
+}

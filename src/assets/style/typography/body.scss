@@ -1,0 +1,20 @@
+/* stylelint-disable */
+
+body {
+  @include ff-suisse-intl;
+  color: $black-text;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+
+  * {
+    &:focus,
+    &:active {
+      outline: 0;
+    }
+  }
+
+  main {
+    overflow-x: hidden;
+  }
+}

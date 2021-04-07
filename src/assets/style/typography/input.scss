@@ -1,0 +1,26 @@
+.input {
+  border: 0;
+  background: transparent !important;
+  width: 100%;
+  font-size: 18px;
+  outline: none;
+
+
+  &:focus {
+    outline: none;
+  }
+
+  &:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+    -webkit-box-shadow: inset 0 0 0 50px $green-brand !important;
+    -webkit-text-fill-color: $black-text !important;
+    color: $black-text !important;
+  }
+}
+
+input[type="text" i],
+input[type="email" i]{
+  padding: 5px 20px 0 !important;
+  font-size: 18px;
+}

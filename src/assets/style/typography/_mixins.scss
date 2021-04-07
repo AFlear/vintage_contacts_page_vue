@@ -1,0 +1,83 @@
+// headings
+
+@mixin h1 {
+  font-size: 36px;
+  line-height: 28px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 50px;
+  }
+}
+
+@mixin h2 {
+  font-size: 28px;
+  line-height: 28px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 34px;
+    line-height: 48px;
+  }
+}
+
+@mixin h3 {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+@mixin p {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+@mixin p-xl {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+// paragraph-small
+
+@mixin p1 {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+@mixin p2 {
+  font-size: 14px;
+  line-height: 28px;
+
+
+  @include media-breakpoint-up(md) {
+    font-size: 15px;
+  }
+}
+
+@mixin p3 {
+  font-size: 11px;
+  line-height: 38px;
+}
+
+@mixin p4 {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+
+//buttons
+
+@mixin button-p1 {
+  font-size: 11px;
+  line-height: 40px;
+  letter-spacing: 1.5px;
+}
+
+// font family
+
+@mixin ff-suisse-intl {
+  font-family: "SuisseIntl", sans-serif;
+}
+
