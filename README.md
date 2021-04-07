@@ -22,3 +22,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+Github Pages link - https://aflear.github.io/vintage_test_task/index.html
+
